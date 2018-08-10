@@ -1,0 +1,16 @@
+{
+    "name": "abcdeweb3-eth-personal",
+    "namespace": "ethereum",
+    "version": "1.0.0-beta.35",
+    "description": "Web3 module to interact with the Ethereum blockchain accounts stored in the node.",
+    "repository": "https://github.com/ethereum/web3.js/tree/master/packages/web3-eth-personal",
+    "license": "LGPL-3.0",
+    "main": "src/index.js",
+    "dependencies": {
+        "abcdeweb3-core": "1.0.0-beta.35",
+        "abcdeweb3-core-helpers": "1.0.0-beta.35",
+        "abcdeweb3-core-method": "1.0.0-beta.35",
+        "abcdeweb3-net": "1.0.0-beta.35",
+        "abcdeweb3-utils": "1.0.0-beta.35"
+    }
+}
