@@ -21,20 +21,20 @@ Please read the [documentation][docs] for more.
 ### Node
 
 ```bash
-npm install abcdeweb3
+npm install abcdeweb3@1.0.0-beta-21
 ```
 
 ### In the Browser
 
 Use the prebuild ``dist/web3.min.js``, or
-build using the [ABCDeweb3.js][repo] repository:
+build using the [abcdeweb3.js][repo] repository:
 
 ```bash
 npm run-script build
 ```
 
-Then include `dist/ABCDeweb3.js` in your html file.
-This will expose `ABCDeWeb3` on the window object.
+Then include `dist/abcdeweb3.js` in your html file.
+This will expose `abcdeWeb3` on the window object.
 
 ## Usage
 
@@ -50,9 +50,8 @@ console.log(ABCDeweb3);
 Additionally you can set a provider using `ABCDeweb3.setProvider()` (e.g. WebsocketProvider)
 
 ```js
-ABCDeweb3.setProvider('ws://localhost:8546');
-// or
-ABCDeweb3.setProvider(new Web3.providers.WebsocketProvider('ws://localhost:8546'));
+const ABCDeWeb3 = require('abcdeweb3');
+const ABCDeweb3 = new ABCDeWeb3(new ABCDeWeb3.providers.HttpProvider('http://13.229.152.61:8501'));
 ```
 
 There you go, now you can use it:
@@ -78,29 +77,8 @@ Documentation can be found at [read the docs][docs]
 sudo apt-get update
 sudo apt-get install nodejs
 sudo apt-get install npm
-```
-
-### Building (gulp)
-
-Build only the ABCDeweb3.js package
-
-```bash
-npm run-script build
-```
-
-Or build all sub packages as well
-
-```bash
-npm run-script build-all
-```
-
-This will put all the browser build files into the `dist` folder.
-
-
-### Testing (mocha)
-
-```bash
-npm test
+sudo npm install abcde-unit@0.0.1
+sudo npm install lerna bootstrap
 ```
 
 ### Contributing

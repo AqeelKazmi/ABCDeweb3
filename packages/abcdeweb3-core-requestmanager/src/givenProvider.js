@@ -33,19 +33,19 @@ if(typeof global.ethereumProvider !== 'undefined') {
     givenProvider = global.ethereumProvider;
 
 // Legacy web3.currentProvider
-} else if(typeof global.ABCDeweb3 !== 'undefined' && global.ABCDeweb3.currentProvider) {
+} else if(typeof global.abcdeweb3 !== 'undefined' && global.abcdeweb3.currentProvider) {
 
-    if(global.ABCDeweb3.currentProvider.sendAsync) {
-        global.ABCDeweb3.currentProvider.send = global.ABCDeweb3.currentProvider.sendAsync;
-        delete global.ABCDeweb3.currentProvider.sendAsync;
+    if(global.abcdeweb3.currentProvider.sendAsync) {
+        global.abcdeweb3.currentProvider.send = global.abcdeweb3.currentProvider.sendAsync;
+        delete global.abcdeweb3.currentProvider.sendAsync;
     }
 
     // if connection is 'ipcProviderWrapper', add subscription support
-    if(!global.ABCDeweb3.currentProvider.on &&
-        global.ABCDeweb3.currentProvider.connection &&
-        global.ABCDeweb3.currentProvider.connection.constructor.name === 'ipcProviderWrapper') {
+    if(!global.abcdeweb3.currentProvider.on &&
+        global.abcdeweb3.currentProvider.connection &&
+        global.abcdeweb3.currentProvider.connection.constructor.name === 'ipcProviderWrapper') {
 
-        global.ABCDeweb3.currentProvider.on = function (type, callback) {
+        global.abcdeweb3.currentProvider.on = function (type, callback) {
 
             if(typeof callback !== 'function')
                 throw new Error('The second parameter callback must be a function.');
@@ -78,7 +78,7 @@ if(typeof global.ethereumProvider !== 'undefined') {
         };
     }
 
-    givenProvider = global.ABCDeweb3.currentProvider;
+    givenProvider = global.abcdeweb3.currentProvider;
 }
 /* jshint ignore:end */
 

@@ -24,11 +24,11 @@
 "use strict";
 
 var _ = require('underscore');
-var errors = require('ABCDeweb3-core-helpers').errors;
-var formatters = require('ABCDeweb3-core-helpers').formatters;
-var utils = require('ABCDeweb3-utils');
-var promiEvent = require('ABCDeweb3-core-promievent');
-var Subscriptions = require('ABCDeweb3-core-subscriptions').subscriptions;
+var errors = require('abcdeweb3-core-helpers').errors;
+var formatters = require('abcdeweb3-core-helpers').formatters;
+var utils = require('abcdeweb3-utils');
+var promiEvent = require('abcdeweb3-core-promievent');
+var Subscriptions = require('abcdeweb3-core-subscriptions').subscriptions;
 
 var TIMEOUTBLOCK = 50;
 var POLLINGTIMEOUT = 15 * TIMEOUTBLOCK; // ~average block time (seconds) * TIMEOUTBLOCK

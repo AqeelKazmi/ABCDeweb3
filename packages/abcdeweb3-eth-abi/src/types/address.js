@@ -1,5 +1,5 @@
 var f = require('../formatters');
-var formatters = require('ABCDeweb3-core-helpers').formatters;
+var formatters = require('abcdeweb3-core-helpers').formatters;
 var SolidityType = require('../type');
 
 /**

@@ -24,7 +24,7 @@
 
 
 var _ = require('underscore');
-var errors = require('ABCDeweb3-core-helpers').errors;
+var errors = require('abcdeweb3-core-helpers').errors;
 var Jsonrpc = require('./jsonrpc.js');
 var BatchManager = require('./batch.js');
 var givenProvider = require('./givenProvider.js');
@@ -50,9 +50,9 @@ var RequestManager = function RequestManager(provider) {
 RequestManager.givenProvider = givenProvider;
 
 RequestManager.providers = {
-    WebsocketProvider: require('ABCDeweb3-providers-ws'),
-    HttpProvider: require('ABCDeweb3-providers-http'),
-    IpcProvider: require('ABCDeweb3-providers-ipc')
+    WebsocketProvider: require('abcdeweb3-providers-ws'),
+    HttpProvider: require('abcdeweb3-providers-http'),
+    IpcProvider: require('abcdeweb3-providers-ipc')
 };
 
 

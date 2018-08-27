@@ -22,7 +22,7 @@
  */
 
 var _ = require('underscore');
-var utils = require('ABCDeweb3-utils');
+var utils = require('abcdeweb3-utils');
 
 var f = require('./formatters');
 

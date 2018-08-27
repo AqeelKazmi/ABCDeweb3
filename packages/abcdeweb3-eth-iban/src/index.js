@@ -25,7 +25,7 @@
 
 "use strict";
 
-var utils = require('ABCDeweb3-utils');
+var utils = require('abcdeweb3-utils');
 var BigNumber = require('bn.js');
 
 

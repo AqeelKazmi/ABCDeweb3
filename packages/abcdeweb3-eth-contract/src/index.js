@@ -19,7 +19,7 @@
  *
  * To initialize a contract use:
  *
- *  var Contract = require('ABCDeweb3-eth-contract');
+ *  var Contract = require('abcdeweb3-eth-contract');
  *  Contract.setProvider('ws://localhost:8546');
  *  var contract = new Contract(abi, address, ...);
  *
@@ -32,14 +32,14 @@
 
 
 var _ = require('underscore');
-var core = require('ABCDeweb3-core');
-var Method = require('ABCDeweb3-core-method');
-var utils = require('ABCDeweb3-utils');
-var Subscription = require('ABCDeweb3-core-subscriptions').subscription;
-var formatters = require('ABCDeweb3-core-helpers').formatters;
-var errors = require('ABCDeweb3-core-helpers').errors;
-var promiEvent = require('ABCDeweb3-core-promievent');
-var abi = require('ABCDeweb3-eth-abi');
+var core = require('abcdeweb3-core');
+var Method = require('abcdeweb3-core-method');
+var utils = require('abcdeweb3-utils');
+var Subscription = require('abcdeweb3-core-subscriptions').subscription;
+var formatters = require('abcdeweb3-core-helpers').formatters;
+var errors = require('abcdeweb3-core-helpers').errors;
+var promiEvent = require('abcdeweb3-core-promievent');
+var abi = require('abcdeweb3-eth-abi');
 
 
 /**

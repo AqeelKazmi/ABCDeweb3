@@ -23,8 +23,8 @@
 "use strict";
 
 var _ = require("underscore");
-var core = require('ABCDeweb3-core');
-var Method = require('ABCDeweb3-core-method');
+var core = require('abcdeweb3-core');
+var Method = require('abcdeweb3-core-method');
 var Promise = require('any-promise');
 var Account = require("eth-lib/lib/account");
 var Hash = require("eth-lib/lib/hash");
@@ -34,8 +34,8 @@ var Bytes = require("eth-lib/lib/bytes");
 var cryp = (typeof global === 'undefined') ? require('crypto-browserify') : require('crypto');
 var scryptsy = require('scrypt.js');
 var uuid = require('uuid');
-var utils = require('ABCDeweb3-utils');
-var helpers = require('ABCDeweb3-core-helpers');
+var utils = require('abcdeweb3-utils');
+var helpers = require('abcdeweb3-core-helpers');
 
 var isNot = function(value) {
     return (_.isUndefined(value) || _.isNull(value));
@@ -395,7 +395,7 @@ Accounts.prototype.encrypt = function (privateKey, password, options) {
 function Wallet(accounts) {
     this._accounts = accounts;
     this.length = 0;
-    this.defaultKeyName = "ABCDeweb3js_wallet";
+    this.defaultKeyName = "abcdeweb3js_wallet";
 }
 
 Wallet.prototype._findSafeIndex = function (pointer) {

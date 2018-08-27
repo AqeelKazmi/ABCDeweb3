@@ -43755,33 +43755,33 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
       // complete ethereum unit map
       var unitMap = {
-        'noether': '0', // eslint-disable-line
+        'noABCDe': '0', // eslint-disable-line
         'wei': '1', // eslint-disable-line
         'kwei': '1000', // eslint-disable-line
         'Kwei': '1000', // eslint-disable-line
         'babbage': '1000', // eslint-disable-line
-        'femtoether': '1000', // eslint-disable-line
+        'femtoABCDe': '1000', // eslint-disable-line
         'mwei': '1000000', // eslint-disable-line
         'Mwei': '1000000', // eslint-disable-line
         'lovelace': '1000000', // eslint-disable-line
-        'picoether': '1000000', // eslint-disable-line
+        'picoABCDe': '1000000', // eslint-disable-line
         'gwei': '1000000000', // eslint-disable-line
         'Gwei': '1000000000', // eslint-disable-line
         'shannon': '1000000000', // eslint-disable-line
-        'nanoether': '1000000000', // eslint-disable-line
+        'nanoABCDe': '1000000000', // eslint-disable-line
         'nano': '1000000000', // eslint-disable-line
         'szabo': '1000000000000', // eslint-disable-line
-        'microether': '1000000000000', // eslint-disable-line
+        'microABCDe': '1000000000000', // eslint-disable-line
         'micro': '1000000000000', // eslint-disable-line
         'finney': '1000000000000000', // eslint-disable-line
-        'milliether': '1000000000000000', // eslint-disable-line
+        'milliABCDe': '1000000000000000', // eslint-disable-line
         'milli': '1000000000000000', // eslint-disable-line
-        'ether': '1000000000000000000', // eslint-disable-line
-        'kether': '1000000000000000000000', // eslint-disable-line
+        'ABCDe': '1000000000000000000', // eslint-disable-line
+        'kABCDe': '1000000000000000000000', // eslint-disable-line
         'grand': '1000000000000000000000', // eslint-disable-line
-        'mether': '1000000000000000000000000', // eslint-disable-line
-        'gether': '1000000000000000000000000000', // eslint-disable-line
-        'tether': '1000000000000000000000000000000' };
+        'mABCDe': '1000000000000000000000000', // eslint-disable-line
+        'gABCDe': '1000000000000000000000000000', // eslint-disable-line
+        'tABCDe': '1000000000000000000000000000000' };
 
       /**
        * Returns value of unit in Wei

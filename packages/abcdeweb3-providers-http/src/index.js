@@ -22,7 +22,7 @@
  * @date 2015
  */
 
-var errors = require('ABCDeweb3-core-helpers').errors;
+var errors = require('abcdeweb3-core-helpers').errors;
 var XHR2 = require('xhr2-cookies').XMLHttpRequest // jshint ignore: line
 
 /**

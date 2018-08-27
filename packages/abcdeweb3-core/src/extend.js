@@ -23,9 +23,9 @@
 "use strict";
 
 
-var formatters = require('ABCDeweb3-core-helpers').formatters;
-var Method = require('ABCDeweb3-core-method');
-var utils = require('ABCDeweb3-utils');
+var formatters = require('abcdeweb3-core-helpers').formatters;
+var Method = require('abcdeweb3-core-method');
+var utils = require('abcdeweb3-utils');
 
 
 var extend = function (pckg) {

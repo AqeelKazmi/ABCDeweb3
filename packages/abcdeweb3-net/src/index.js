@@ -22,9 +22,9 @@
 
 "use strict";
 
-var core = require('ABCDeweb3-core');
-var Method = require('ABCDeweb3-core-method');
-var utils = require('ABCDeweb3-utils');
+var core = require('abcdeweb3-core');
+var Method = require('abcdeweb3-core-method');
+var utils = require('abcdeweb3-utils');
 
 
 var Net = function () {

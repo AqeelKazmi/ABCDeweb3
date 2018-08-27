@@ -23,7 +23,7 @@
 "use strict";
 
 
-var requestManager = require('ABCDeweb3-core-requestmanager');
+var requestManager = require('abcdeweb3-core-requestmanager');
 var extend = require('./extend.js');
 
 module.exports = {

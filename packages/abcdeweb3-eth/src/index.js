@@ -23,18 +23,18 @@
 "use strict";
 
 var _ = require('underscore');
-var core = require('ABCDeweb3-core');
-var helpers = require('ABCDeweb3-core-helpers');
-var Subscriptions = require('ABCDeweb3-core-subscriptions').subscriptions;
-var Method = require('ABCDeweb3-core-method');
-var utils = require('ABCDeweb3-utils');
-var Net = require('ABCDeweb3-net');
+var core = require('abcdeweb3-core');
+var helpers = require('abcdeweb3-core-helpers');
+var Subscriptions = require('abcdeweb3-core-subscriptions').subscriptions;
+var Method = require('abcdeweb3-core-method');
+var utils = require('abcdeweb3-utils');
+var Net = require('abcdeweb3-net');
 
-var Personal = require('ABCDeweb3-eth-personal');
-var BaseContract = require('ABCDeweb3-eth-contract');
-var Iban = require('ABCDeweb3-eth-iban');
-var Accounts = require('ABCDeweb3-eth-accounts');
-var abi = require('ABCDeweb3-eth-abi');
+var Personal = require('abcdeweb3-eth-personal');
+var BaseContract = require('abcdeweb3-eth-contract');
+var Iban = require('abcdeweb3-eth-iban');
+var Accounts = require('abcdeweb3-eth-accounts');
+var abi = require('abcdeweb3-eth-abi');
 
 var getNetworkType = require('./getNetworkType.js');
 var formatter = helpers.formatters;
@@ -184,7 +184,7 @@ var Eth = function Eth() {
     var methods = [
         new Method({
             name: 'getNodeInfo',
-            call: 'ABCDeweb3_clientVersion'
+            call: 'abcdeweb3_clientVersion'
         }),
         new Method({
             name: 'getProtocolVersion',

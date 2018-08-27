@@ -29,13 +29,13 @@
 
 
 var version = require('../package.json').version;
-var core = require('ABCDeweb3-core');
-var Eth = require('ABCDeweb3-eth');
-var Net = require('ABCDeweb3-net');
-var Personal = require('ABCDeweb3-eth-personal');
-var Shh = require('ABCDeweb3-shh');
-var Bzz = require('ABCDeweb3-bzz');
-var utils = require('ABCDeweb3-utils');
+var core = require('abcdeweb3-core');
+var Eth = require('abcdeweb3-eth');
+var Net = require('abcdeweb3-net');
+var Personal = require('abcdeweb3-eth-personal');
+var Shh = require('abcdeweb3-shh');
+var Bzz = require('abcdeweb3-bzz');
+var utils = require('abcdeweb3-utils');
 
 var ABCDeWeb3 = function ABCDeWeb3() {
     var _this = this;

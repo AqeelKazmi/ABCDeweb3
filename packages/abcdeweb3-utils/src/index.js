@@ -23,7 +23,7 @@
 
 
 var _ = require('underscore');
-var ethjsUnit = require('ethjs-unit');
+var ethjsUnit = require('abcde-unit');
 var utils = require('./utils.js');
 var soliditySha3 = require('./soliditySha3.js');
 var randomHex = require('randomhex');
@@ -206,7 +206,7 @@ var fromWei = function(number, unit) {
  * - --         microether     szabo        micro
  * - --         microether     szabo        micro
  * - --         milliether     finney       milli
- * - ether      --             --
+ * - abcde      --             --
  * - kether                    --           grand
  * - mether
  * - gether

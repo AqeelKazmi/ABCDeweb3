@@ -22,11 +22,11 @@
 
 "use strict";
 
-var core = require('ABCDeweb3-core');
-var Subscriptions = require('ABCDeweb3-core-subscriptions').subscriptions;
-var Method = require('ABCDeweb3-core-method');
+var core = require('abcdeweb3-core');
+var Subscriptions = require('abcdeweb3-core-subscriptions').subscriptions;
+var Method = require('abcdeweb3-core-method');
 // var formatters = require('web3-core-helpers').formatters;
-var Net = require('ABCDeweb3-net');
+var Net = require('abcdeweb3-net');
 
 
 var Shh = function Shh() {

@@ -25,8 +25,8 @@
 
 
 var _ = require('underscore');
-var utils = require('ABCDeweb3-utils');
-var Iban = require('ABCDeweb3-eth-iban');
+var utils = require('abcdeweb3-utils');
+var Iban = require('abcdeweb3-eth-iban');
 
 /**
  * Should the format output to a big number

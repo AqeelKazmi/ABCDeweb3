@@ -23,7 +23,7 @@
 "use strict";
 
 var Jsonrpc = require('./jsonrpc');
-var errors = require('ABCDeweb3-core-helpers').errors;
+var errors = require('abcdeweb3-core-helpers').errors;
 
 var Batch = function (requestManager) {
     this.requestManager = requestManager;

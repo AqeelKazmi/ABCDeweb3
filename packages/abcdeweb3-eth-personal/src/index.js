@@ -22,12 +22,12 @@
 
 "use strict";
 
-var core = require('ABCDeweb3-core');
-var Method = require('ABCDeweb3-core-method');
-var utils = require('ABCDeweb3-utils');
-var Net = require('ABCDeweb3-net');
+var core = require('abcdeweb3-core');
+var Method = require('abcdeweb3-core-method');
+var utils = require('abcdeweb3-utils');
+var Net = require('abcdeweb3-net');
 
-var formatters = require('ABCDeweb3-core-helpers').formatters;
+var formatters = require('abcdeweb3-core-helpers').formatters;
 
 
 var Personal = function Personal() {
