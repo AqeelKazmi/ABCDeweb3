@@ -23,19 +23,6 @@ Please read the [documentation][docs] for more.
 ```bash
 npm install abcdeweb3@1.0.0-beta-21
 ```
-
-### In the Browser
-
-Use the prebuild ``dist/web3.min.js``, or
-build using the [abcdeweb3.js][repo] repository:
-
-```bash
-npm run-script build
-```
-
-Then include `dist/abcdeweb3.js` in your html file.
-This will expose `abcdeWeb3` on the window object.
-
 ## Usage
 
 ```js
@@ -80,27 +67,3 @@ sudo apt-get install npm
 sudo npm install abcde-unit@0.0.1
 sudo npm install lerna bootstrap
 ```
-
-### Contributing
-
-- All contributions have to go into develop, or the 1.0 branch
-- Please follow the code style of the other files, we use 4 spaces as tabs.
-
-### Community
- - [Gitter](https://gitter.im/ethereum/web3.js?source=orgpage)
- - [Forum](https://forum.ethereum.org/categories/ethereum-js)
-
-[repo]: https://github.com/ethereum/web3.js
-[docs]: http://web3js.readthedocs.io/en/1.0/
-[npm-image]: https://badge.fury.io/js/web3.png
-[npm-url]: https://npmjs.org/package/web3
-[travis-image]: https://travis-ci.org/ethereum/web3.js.svg
-[travis-url]: https://travis-ci.org/ethereum/web3.js
-[dep-image]: https://david-dm.org/ethereum/web3.js.svg
-[dep-url]: https://david-dm.org/ethereum/web3.js
-[dep-dev-image]: https://david-dm.org/ethereum/web3.js/dev-status.svg
-[dep-dev-url]: https://david-dm.org/ethereum/web3.js#info=devDependencies
-[coveralls-image]: https://coveralls.io/repos/ethereum/web3.js/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/r/ethereum/web3.js?branch=master
-[waffle-image]: https://badge.waffle.io/ethereum/web3.js.svg?label=ready&title=Ready
-[waffle-url]: https://waffle.io/ethereum/web3.js
