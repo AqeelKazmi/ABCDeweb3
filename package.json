@@ -1,7 +1,7 @@
 {
   "name": "abcdeweb3",
   "namespace": "ABCDe",
-  "version": "1.0.0-beta-21",
+  "version": "1.0.0-beta-23",
   "description": "ABCDe JavaScript API wrapper repository",
   "license": "LGPL-3.0",
   "main": "./packages/abcdeweb3/src/index.js",

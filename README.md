@@ -1,4 +1,4 @@
-**PREVIEW RELEASE** This is a beta preview release with breaking changes! The current stable version is 1.0.0-beta-22
+**PREVIEW RELEASE** This is a beta preview release with breaking changes! 
 
 <img src="https://github.com/ethereum/web3.js/raw/1.0/web3js.jpg" width=200 />
 
@@ -12,7 +12,7 @@ You need to run a local or remote ABCDe node to use this library.
 ### Node
 
 ```bash
-npm install abcdeweb3@1.0.0-beta-22
+npm install abcdeweb3@latest
 ```
 
 ## Usage
@@ -51,6 +51,5 @@ ABCDeweb3.eth.getAccounts()
 sudo apt-get update
 sudo apt-get install nodejs
 sudo apt-get install npm
-sudo npm install abcde-unit@0.0.1
 sudo npm install lerna bootstrap
 ```
