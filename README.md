@@ -1,4 +1,4 @@
-**PREVIEW RELEASE** This is a beta preview release with breaking changes! 
+**PREVIEW RELEASE** This is a copy of original web3, changed as per ABCDe requirements! 
 
 <img src="https://github.com/ethereum/web3.js/raw/1.0/web3js.jpg" width=200 />
 

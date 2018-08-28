@@ -1,4 +1,4 @@
-# web3-eth-accounts
+# abcdeweb3-eth-accounts
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-eth-accounts
+npm install abcdeweb3-eth-accounts
 ```
 
 ### In the Browser
@@ -29,9 +29,9 @@ This will expose the `Web3EthAccounts` object on the window object.
 
 ```js
 // in node.js
-var Web3EthAccounts = require('web3-eth-accounts');
+var ABCDeWeb3EthAccounts = require('abcdeweb3-eth-accounts');
 
-var account = new Web3EthAccounts('ws://localhost:8546');
+var account = new ABCDeWeb3EthAccounts('ws://localhost:8546');
 account.create();
 > {
   address: '0x2c7536E3605D9C16a7a3D7b1898e529396a65c23',

@@ -1,4 +1,4 @@
-# web3-utils
+# abcdeweb3-utils
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-utils
+npm install abcdeweb3-utils
 ```
 
 ### In the Browser
@@ -29,8 +29,8 @@ This will expose the `Web3Utils` object on the window object.
 
 ```js
 // in node.js
-var Web3Utils = require('web3-utils');
-console.log(Web3Utils);
+var ABCDeWeb3Utils = require('abcdeweb3-utils');
+console.log(ABCDeWeb3Utils);
 {
     sha3: function(){},
     soliditySha3: function(){},

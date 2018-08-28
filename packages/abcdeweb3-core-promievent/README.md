@@ -1,4 +1,4 @@
-# web3-core-promievent
+# abcdeweb3-core-promievent
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-core-promievent
+npm install abcdeweb3-core-promievent
 ```
 
 ### In the Browser
@@ -29,10 +29,10 @@ This will expose the `Web3PromiEvent` object on the window object.
 
 ```js
 // in node.js
-var Web3PromiEvent = require('web3-core-promievent');
+var ABCDeWeb3PromiEvent = require('abcdeweb3-core-promievent');
 
 var myFunc = function(){
-    var promiEvent = Web3PromiEvent();
+    var promiEvent = ABCDeWeb3PromiEvent();
     
     setTimeout(function() {
         promiEvent.eventEmitter.emit('done', 'Hello!');

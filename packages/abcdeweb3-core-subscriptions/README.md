@@ -1,4 +1,4 @@
-# web3-core-subscriptions
+# abcdeweb3-core-subscriptions
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-core-subscriptions
+npm install abcdeweb3-core-subscriptions
 ```
 
 ### In the Browser
@@ -29,9 +29,9 @@ This will expose the `Web3Subscriptions` object on the window object.
 
 ```js
 // in node.js
-var Web3Subscriptions = require('web3-core-subscriptions');
+var ABCDeWeb3Subscriptions = require('abcdeweb3-core-subscriptions');
 
-var sub = new Web3Subscriptions({
+var sub = new ABCDeWeb3Subscriptions({
     name: 'subscribe',
     type: 'eth',
     subscriptions: {

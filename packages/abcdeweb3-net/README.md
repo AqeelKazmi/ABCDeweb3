@@ -1,4 +1,4 @@
-# web3-net
+# abcdeweb3-net
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-net
+npm install abcdeweb3-net
 ```
 
 ### In the Browser
@@ -29,9 +29,9 @@ This will expose the `Web3Net` object on the window object.
 
 ```js
 // in node.js
-var Web3Net = require('web3-net');
+var ABCDeWeb3Net = require('abcdeweb3-net');
 
-var net = new Web3Net('ws://localhost:8546');
+var net = new ABCDeWeb3Net('ws://localhost:8546');
 ```
 
 

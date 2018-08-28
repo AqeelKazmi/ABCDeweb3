@@ -1,4 +1,4 @@
-# web3-providers-ipc
+# abcdeweb3-providers-ipc
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-providers-ipc
+npm install abcdeweb3-providers-ipc
 ```
 
 ### In the Browser
@@ -29,10 +29,10 @@ This will expose the `Web3IpcProvider` object on the window object.
 
 ```js
 // in node.js
-var Web3IpcProvider = require('web3-providers-ipc');
+var ABCDeWeb3IpcProvider = require('abcdeweb3-providers-ipc');
 var net = require(net);
 
-var ipc = new Web3IpcProvider('/Users/me/Library/Ethereum/geth.ipc', net);
+var ipc = new ABCDeWeb3IpcProvider('/Users/me/Library/Ethereum/geth.ipc', net);
 ```
 
 

@@ -1,4 +1,4 @@
-# web3-eth-abi
+# abcdeweb3-eth-abi
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-eth-abi
+npm install abcdeweb3-eth-abi
 ```
 
 ### In the Browser
@@ -29,9 +29,9 @@ This will expose the `Web3EthAbi` object on the window object.
 
 ```js
 // in node.js
-var Web3EthAbi = require('web3-eth-abi');
+var ABCDeWeb3EthAbi = require('abcdeweb3-eth-abi');
 
-Web3EthAbi.encodeFunctionSignature('myMethod(uint256,string)');
+ABCDeWeb3EthAbi.encodeFunctionSignature('myMethod(uint256,string)');
 > '0x24ee0097'
 ```
 

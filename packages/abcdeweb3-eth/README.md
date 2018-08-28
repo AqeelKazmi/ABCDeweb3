@@ -1,4 +1,4 @@
-# web3-eth
+# abcdeweb3-eth
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-eth
+npm install abcdeweb3-eth
 ```
 
 ### In the Browser
@@ -29,7 +29,7 @@ This will expose the `Web3Eth` object on the window object.
 
 ```js
 // in node.js
-var Web3Eth = require('ABCDeweb3-eth');
+var ABCDeWeb3Eth = require('abcdeweb3-eth');
 
 var eth = new Web3Eth('ws://localhost:8546');
 ```

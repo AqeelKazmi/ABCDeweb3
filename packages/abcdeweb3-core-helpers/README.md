@@ -1,4 +1,4 @@
-# web3-core-helpers
+# abcdeweb3-core-helpers
 
 This is a sub package of [web3.js][repo]
 
@@ -10,14 +10,14 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-core-helpers
+npm install abcdeweb3-core-helpers
 ```
 
 ## Usage
 
 ```js
 // in node.js
-var helpers = require('web3-core-helpers');
+var helpers = require('abcdeweb3-core-helpers');
 
 helpers.formatters;
 helpers.errors;

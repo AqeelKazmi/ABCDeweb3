@@ -1,4 +1,4 @@
-# web3-eth-personal
+# abcdeweb3-eth-personal
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-eth-personal
+npm install abcdeweb3-eth-personal
 ```
 
 ### In the Browser
@@ -29,9 +29,9 @@ This will expose the `Web3EthPersonal` object on the window object.
 
 ```js
 // in node.js
-var Web3EthPersonal = require('web3-eth-personal');
+var ABCDeWeb3EthPersonal = require('abcdeweb3-eth-personal');
 
-var personal = new Web3EthPersonal('ws://localhost:8546');
+var personal = new ABCDeWeb3EthPersonal('ws://localhost:8546');
 ```
 
 

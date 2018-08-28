@@ -1,4 +1,4 @@
-# web3-eth-iban
+# abcdeweb3-eth-iban
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-eth-iban
+npm install abcdeweb3-eth-iban
 ```
 
 ### In the Browser
@@ -29,9 +29,9 @@ This will expose the `Web3EthIban` object on the window object.
 
 ```js
 // in node.js
-var Web3EthIban = require('web3-eth-iban');
+var ABCDeWeb3EthIban = require('abcdeweb3-eth-iban');
 
-var iban = new Web3EthIban('XE75JRZCTTLBSYEQBGAS7GID8DKR7QY0QA3');
+var iban = new ABCDeWeb3EthIban('XE75JRZCTTLBSYEQBGAS7GID8DKR7QY0QA3');
 iban.toAddress()
 > '0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B'
 ```

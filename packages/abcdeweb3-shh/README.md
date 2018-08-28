@@ -1,4 +1,4 @@
-# web3-shh
+# abcdeweb3-shh
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-shh
+npm install abcdeweb3-shh
 ```
 
 ### In the Browser
@@ -29,9 +29,9 @@ This will expose the `Web3Personal` object on the window object.
 
 ```js
 // in node.js
-var Web3Personal = require('web3-shh');
+var ABCDeWeb3Personal = require('abcdeweb3-shh');
 
-var shh = new Web3Personal('ws://localhost:8546');
+var shh = new ABCDeWeb3Personal('ws://localhost:8546');
 ```
 
 

@@ -1,4 +1,4 @@
-# web3-core-requestmanager
+# abcdeweb3-core-requestmanager
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-core-requestmanager
+npm install abcdeweb3-core-requestmanager
 ```
 
 ### In the Browser
@@ -29,10 +29,10 @@ This will expose the `Web3RequestManager` object on the window object.
 
 ```js
 // in node.js
-var Web3WsProvider = require('web3-providers-ws');
-var Web3RequestManager = require('web3-core-requestmanager');
+var ABCDeWeb3WsProvider = require('abcdeweb3-providers-ws');
+var ABCDeWeb3RequestManager = require('abcdeweb3-core-requestmanager');
 
-var requestManager = new Web3RequestManager(new Web3WsProvider('ws://localhost:8546'));
+var requestManager = new ABCDeWeb3RequestManager(new ABCDeWeb3WsProvider('ws://localhost:8546'));
 ```
 
 

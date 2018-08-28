@@ -1,4 +1,4 @@
-# web3-bzz
+# abcdeweb3-bzz
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-bzz
+npm install abcdeweb3-bzz
 ```
 
 ### In the Browser
@@ -29,7 +29,7 @@ This will expose the `Web3Personal` object on the window object.
 
 ```js
 // in node.js
-var Web3Bzz = require('web3-bzz');
+var ABCDeWeb3Bzz = require('abcdeweb3-bzz');
 
 var bzz = new Web3Bzz('http://swarm-gateways.net');
 ```

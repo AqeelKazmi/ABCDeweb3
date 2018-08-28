@@ -1,4 +1,4 @@
-# web3-eth-contract
+# abcdeweb3-eth-contract
 
 This is a sub package of [web3.js][repo]
 
@@ -10,7 +10,7 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-eth-contract
+npm install abcdeweb3-eth-contract
 ```
 
 ### In the Browser
@@ -29,12 +29,12 @@ This will expose the `Web3EthContract` object on the window object.
 
 ```js
 // in node.js
-var Web3EthContract = require('web3-eth-contract');
+var ABCDeWeb3EthContract = require('abcdeweb3-eth-contract');
 
 // set provider for all later instances to use
-Web3EthContract.setProvider('ws://localhost:8546');
+ABCDeWeb3EthContract.setProvider('ws://localhost:8546');
 
-var contract = new Web3EthContract(jsonInterface, address);
+var contract = new ABCDeWeb3EthContract(jsonInterface, address);
 contract.methods.somFunc().send({from: ....})
 .on('receipt', function(){
     ...
